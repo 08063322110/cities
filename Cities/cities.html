@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            background-color: #666;
+            font-size: 30px;
+            text-align: center;
+            font-size: 35px;
+            height: 100px;
+            color: white;
+        }
+
+        section{
+            display: -webkit-flex;
+            display: flex;
+        
+        }
+
+        nav{
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background-color: #ccc;
+            padding: 20px;
+        
+        }
+
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article{
+            -webkit-box-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+
+        footer{
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        @media (max-width: 600px) {section {
+            -webkit-flex-direction: column; 
+            flex-direction: column;
+            
+        }
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Cities</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>London</h1>
+            <br> <br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni eos quo ea tempore odit magnam ducimus numquam qui. Suscipit cupiditate quia similique quod quaerat recusandae eos vitae vero excepturi fugit. <br> <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quidem cum, inventore dolores tempora quaerat nesciunt magni, praesentium, iste natus quos. Cupiditate, corrupti quo? Ullam eligendi qui beatae delectus quam.
+            <br><br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, quae necessitatibus totam quisquam autem laborum blanditiis quod, consequuntur doloremque esse at molestias deserunt quibusdam reiciendis est dolorum exercitationem quam quo?</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Footer</p> 
+    </footer>
+</body>
+</html>
